@@ -1,0 +1,14 @@
+<suite name="My suite">
+	<test name="Chrome test">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testCases.LoginPageTestCases"></class>
+		</classes>
+	</test>
+	<test name="Edge test">
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="testCases.LoginPageTestCases"></class>
+		</classes>
+	</test>
+</suite>
