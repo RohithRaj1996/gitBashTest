@@ -1,0 +1,15 @@
+<suite name="My suite">
+	<test name="My Test">
+		<groups>
+			<run>
+				<include name="critical"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.LoginPageTestCases"></class>
+			<class name="testCases.ManageProductTestCases"></class> 
+			<class name="testCases.MobileSliderTestCases"></class>
+		</classes>
+	</test>
+
+</suite>
